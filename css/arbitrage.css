@@ -1,0 +1,229 @@
+/*********************
+	BODY STYLING
+**********************/
+body.arbitrage {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 1049px;
+	height: 1500px;
+	background-image: url("..img/poster-background.jpg") no-repeat 20px 20px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial;
+	font-weight: normal;
+	color: #eee;
+}
+
+/* COMMON SETTINGS */
+p, h3 {
+	display:inline;
+}
+
+/**********************
+	SIDE TEXT STYLING
+***********************/
+aside.name{
+	position: absolute;
+	top: 66px;
+	left: 332px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	color: #eee;
+	font-size: 30px;
+	font-family: Arial;
+	font-weight: bold;
+	letter-spacing: 14px;
+	border:none;
+}
+
+aside.leftquote, aside.rightquote{
+	position:absolute;
+	top:132px;
+	line-height:125%;
+	letter-spacing: 1px;
+	font-size: 26px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;	
+}
+
+p.quotesource{
+	position: relative;
+	top: -3px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 11px;
+	font-weight: bold;	
+}
+
+aside.leftquote{
+	left:66px;
+	text-align: left;
+	width: 250px;
+}
+
+aside.rightquote{
+	left:728px;
+	text-align: right;
+	width: 250px;
+}
+
+/************************
+ PRIMARY SECTION STYLING
+*************************/
+section{
+	position: absolute;
+	top: 1040px;
+	left: 0px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* SECTION HEADER STYLING */
+hgroup{ text-align: left; }
+
+h1{
+	position: relative;
+	left: 0px;
+	top: 16px;
+	width: 100%;
+	font-size: 110px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 20px;
+	margin: 0px;
+	padding: 0px;
+	color: #ccc;
+}
+
+h2{
+	position:relative;
+	top:2px;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2.6px;
+	text-align: center;
+}
+
+h3{
+	position:relative;
+	top: -215px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+h3.susan { left: 100px;}
+h3.tim { left: 152px;}
+h3.brit { left: 208px;}
+
+
+/* SECTION MAIN CONTENT */
+article.cast{
+	position:relative;
+	top: -30px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	font-family: "Arial Narrow", sans-serif;
+	font-stretch: ultra-condensed;/*helps in Firefox*/
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: -1px;
+	line-height:150%;
+	color: #aaa;
+}
+
+span.noncast{
+	font-size:8px;
+}
+
+/*********************
+    FOOTER STYLING
+*********************/
+footer {
+	position:relative;
+	top: -40px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* RESTRICTED MESSAGE PLACEMENT */
+div.restricted{
+	width: 178px;
+	height: 67px;
+	position: relative;
+	top: 6px;
+	left: 66px;
+	background-image: url("img/1-restricted-blank.jpg") no-repeat 0px 0px;
+	padding: 20px 0 0 92px;
+	margin: 0px;
+	color: #333;
+	font-size: 10px;
+	line-height:90%;
+	float: left;
+}
+
+/* FOOTER IMAGES */
+footer img{
+	position: relative;
+	top: 6px;
+	border: none;
+}
+/* BARCODE PLACEMENT */
+img#barcode{
+	left: -15px;
+}
+
+/* MADMAN LOGO PLACEMENT */
+img#madman{
+	left: 100px;
+}
+
+/* NAVIGATION LINKS IN FOOTER */
+nav.footernav{
+	display: inline;
+	text-decoration: none;
+	color: #fff;
+	top: 12px;
+}
+
+nav.footernav  a,
+nav.footernav a:link,
+nav.footernav a:visited{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+nav.footernav a:hover{
+	color: #555;
+}
+
+nav.footernav  a img{
+	position: relative;
+	top: 1px;
+	border: none;
+}
+
+a#facebook {
+	padding-left: 10px;
+}
+
+a#twitter{
+	padding-left: 20px;
+}
+
+a#movieurl{
+	font-size: 16px;
+	padding-left: 20px;
+	letter-spacing: 1px;
+}
